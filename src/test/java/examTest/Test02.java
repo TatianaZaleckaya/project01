@@ -16,7 +16,7 @@ public class Test02 {
     void registration(){
         RegistrationPage.getPage(By.xpath("//*[@id=\"overlays\"]/div[5]/div/div/div[2]/button"));
         RegistrationPage.clickBut();
-        RegistrationPage.insertUserAge("zal83.83@mail.ru");
+        RegistrationPage.insertUserAge("");
         RegistrationPage.insertUserName("Tanya");
         RegistrationPage.insertEmail("");
         RegistrationPage.insertUserPassword("TatiAna1313");
