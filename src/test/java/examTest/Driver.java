@@ -1,6 +1,7 @@
 package examTest;
 
 
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -33,7 +34,7 @@ public class Driver {
 
 
     }
-
+@Step
     public static void getURL() {
         driver.get("https://google.com");
         driver.get("https://www.duolingo.com/placement/en?isLoggingIn=true");
@@ -42,18 +43,17 @@ public class Driver {
     public static String windowHandle() {
         driver.getWindowHandles();
         return null;
+
     }
 
-    public static String windowHabdles() {
-        driver.getWindowHandles();
-        return null;
-    }
 
     public static void closeDriver() {
         if (driver != null) {
             driver.quit();
-            driver = null;
+            LOG.info("Driver quit");
+
         }
+
 
     }
 }

@@ -1,4 +1,4 @@
-package examTest;
+package examTest.RegistrationPage;
 
 import org.openqa.selenium.By;
 

@@ -1,9 +1,10 @@
-package examTest;
+package examTest.RegistrationPage;
 
 
+import examTest.BasePage;
 import org.openqa.selenium.By;
 
-import static examTest.RegistrationPageLocation.*;
+import static examTest.RegistrationPage.RegistrationPageLocation.*;
 
 public class RegistrationPage extends BasePage {
 

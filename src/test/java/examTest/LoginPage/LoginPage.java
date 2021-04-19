@@ -1,8 +1,10 @@
-package examTest;
+package examTest.LoginPage;
 
 
 
-import static examTest.LoginPageLocators.*;
+import examTest.BasePage;
+
+import static examTest.LoginPage.LoginPageLocators.*;
 
 public class LoginPage extends BasePage {
 
