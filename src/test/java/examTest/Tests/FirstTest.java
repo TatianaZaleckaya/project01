@@ -22,8 +22,8 @@ public class FirstTest {
     @Test
     @Step
     void AuthPage(){
-        insertUserName("ntv-212@yandex.com");
-        LoginPage.insertUserPassword("MISha2212");
+        insertUserName("m");
+        LoginPage.insertUserPassword("M");
         LoginPage.clickSignInButton();
     }
 
